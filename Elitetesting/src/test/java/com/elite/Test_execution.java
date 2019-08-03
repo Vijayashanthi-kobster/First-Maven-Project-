@@ -10,7 +10,7 @@ public class Test_execution {
 
 	@Test(priority = 1)
 	public void positiveflow() throws Exception {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Sivadass\\Documents\\selenium files\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
