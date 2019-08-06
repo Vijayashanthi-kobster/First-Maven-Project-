@@ -13,7 +13,9 @@ public class Test_execution {
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
+		Thread.sleep(3000);
 		driver.manage().window().maximize();
+		Thread.sleep(3000);
 		driver.get("https://www.kobster.com/elite-auth#/dashboard");
 
 		// Verify login functionality
